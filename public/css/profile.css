@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F3EAF7;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #A98EBB;
+    padding: 15px;
+    color: white;
+}
+
+.back-button {
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #333;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.back-button:hover {
+    color: #007BFF;
+    transform: translateX(-3px);
+}
+
+.profile-container {
+    background: #D3B4E0;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    margin-top: -20px;
+    text-align: center;
+}
+.profile-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.profile-details {
+    background: white;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto 20px;
+}
+.profile-details input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.profile-details label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+.update-btn {
+    background-color: #D3B4E0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+}
+.update-btn:hover {
+    background-color: #C19FD3;
+}

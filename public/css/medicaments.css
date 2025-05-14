@@ -1,0 +1,123 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #A98EBB;
+    padding: 15px;
+    color: white;
+}
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin: 1rem 0;
+  }
+  
+  .section-title {
+    color: #6f5cc4;
+    margin-bottom: 1rem;
+  }
+  
+  .medicine-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .medicine-card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .medicine-info h3 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+  }
+  
+  .medicine-info p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .details-btn {
+    background-color: #e6e1fa;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c3b1ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  .form input, .form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .upload-box {
+    border: 1px dashed #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .upload-box img {
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 8px;
+  }
+  
+  .add-btn {
+    background-color: #c3b1ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

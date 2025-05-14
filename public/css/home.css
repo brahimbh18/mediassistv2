@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #A98EBB;
+    padding: 15px;
+    color: white;
+}
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #D3B4E0;
+    transition: 0.3s;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.sidebar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.sidebar .email {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.sidebar a {
+    display: block;
+    padding: 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+.sidebar a:hover {
+    background: #C49FDB;
+}
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+.grid-container a {
+    text-decoration: none;
+    color: inherit; /* keeps text color consistent */
+}
+
+.grid-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.grid-item:active {
+    transform: scale(0.98);
+}
